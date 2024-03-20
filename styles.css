@@ -1,0 +1,81 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.card {
+    background-color: hsl(217, 19%, 38%);
+    width: 480px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 40px 80px;
+    position: relative;
+    
+}
+hr {
+    background-color: hsl(0, 0%, 63%);
+    width: 225px;
+    border: none;
+    height: 1px;
+}
+.quotes {
+    background-color: white;
+    height: 16px;
+    width: 6px;
+    border-radius: 3px;
+    margin: 0 4px;
+}
+.btm-container {
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: .1rem;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+    padding: 36px 0;
+    text-align: center;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 50px;
+    background-color: hsl(150, 100%, 66%);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dice-container:hover  {
+    box-shadow: 0 3px 10px 10px hsl(150, 100%, 66%, 30%);
+
+}
+#svg-img {
+    fill: red;
+    height: 20px;
+}
