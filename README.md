@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/images/advice-generator.gif)
+![](/images/advice-generator.gif)
 
 ## My process
 Took two hours from eyeing the specs of the design, to reviewing how the DOM works, to seeing how to use fetch API. Logging the data in the console really helped with debugging with displaying the content. 
